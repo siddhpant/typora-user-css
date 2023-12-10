@@ -1,0 +1,5 @@
+/* Reduce code blocks font size. */
+
+.md-fences {
+	font-size: 70%;
+}

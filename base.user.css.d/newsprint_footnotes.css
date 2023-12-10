@@ -1,0 +1,65 @@
+/* For footnotes; Copied from Newsprint theme. */
+
+.footnotes-area::after {
+	content: "";
+	position: absolute;
+	width: 100vw;
+	border-top: none;
+	border-right: none;
+	border-bottom: 1px solid;
+	border-left: none;
+	border-color: #c5c5c5;
+	margin-top: 20px;
+}
+
+.footnotes-area hr {
+	height: 0;
+	padding: 0;
+	margin: 0;
+	border-width: 0;
+	width: 0;
+}
+
+.footnotes-area {
+	font-family: "PT Serif", 'Times New Roman', Times, serif;
+	color: #1f0909;
+	line-height: 1.5em;
+}
+
+.footnote-line {
+	font-size: 1rem;
+	margin-top: 20px;
+}
+
+.footnote-line a:not(.reversefootnote) {
+	color: #065588;
+}
+
+.md-fn-count::before {
+	content: "["
+}
+
+.md-fn-count::after {
+	content: "]"
+}
+
+.md-fn-count {
+	font-weight: bold;
+}
+
+/*
+.footnotes-area::before {
+	content: "References";
+	font-size: 1.875em;
+	line-height: 1.6em;
+	margin-top: 2em;
+}
+
+p:last-of-type {
+	height: 0;
+	padding: 0;
+	margin: 0;
+	border-width: 0;
+	width: 0;
+}
+*/
